@@ -88,34 +88,6 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UPu-uM-KqZ" id="LRb-89-glF">
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test serial" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKQ-Wz-uuh">
-                                                    <rect key="frame" x="8" y="11" width="130" height="21"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="130" id="Pc9-3f-akJ"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="rezult" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pl-qi-XJE">
-                                                    <rect key="frame" x="357" y="11" width="235" height="21"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="235" id="fFF-3X-M8A"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="1pl-qi-XJE" firstAttribute="top" secondItem="LRb-89-glF" secondAttribute="topMargin" constant="3" id="7RJ-AQ-arJ"/>
-                                                <constraint firstItem="1pl-qi-XJE" firstAttribute="trailing" secondItem="LRb-89-glF" secondAttribute="trailingMargin" id="cOa-tK-tyU"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="1pl-qi-XJE" secondAttribute="bottom" constant="4" id="kGc-Cs-mAe"/>
-                                                <constraint firstItem="XKQ-Wz-uuh" firstAttribute="leading" secondItem="LRb-89-glF" secondAttribute="leadingMargin" id="rxY-4y-FKn"/>
-                                                <constraint firstItem="XKQ-Wz-uuh" firstAttribute="top" secondItem="LRb-89-glF" secondAttribute="topMargin" constant="3" id="vfK-rk-yQu"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="XKQ-Wz-uuh" secondAttribute="bottom" constant="4" id="yy8-RF-SJN"/>
-                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
